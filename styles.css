@@ -4,14 +4,14 @@ h1,
 h2,
 p,
 ul {
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-image: url('cehennem-1.jpg'); /* Apply the background image */
+  background-image: url("cehennem-1.jpg"); /* Убедитесь, что путь указан правильно */
   background-size: cover; /* Ensure the image covers the whole background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -55,7 +55,6 @@ ul {
 
 .qualities-content {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
 }
@@ -78,11 +77,11 @@ strong {
 }
 
 .boss-image {
-  flex: 0 0 150px;
+  flex: 0 0 75px; /* Уменьшенная ширина */
 }
 
 .boss-image img {
-  width: 100%;
+  width: 100%; /* Ширина изображения 100% от родительского контейнера */
   height: auto;
   border-radius: 5px;
 }
@@ -129,7 +128,7 @@ cite {
   box-sizing: border-box;
 }
 
-.contact input[type='submit'] {
+.contact input[type="submit"] {
   margin-top: 1rem;
   background-color: #0077cc;
   color: #fff;
@@ -137,7 +136,7 @@ cite {
   cursor: pointer;
 }
 
-.contact input[type='submit']:hover {
+.contact input[type="submit"]:hover {
   background-color: #005fa3;
 }
 

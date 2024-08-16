@@ -1,103 +1,78 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Начальник которого мы заслужили</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <h1>Начальник, которого мы заслужили</h1>
-      </div>
+    <header class="header-container">
+      <h1>Начальник, которого мы заслужили</h1>
     </header>
 
     <main>
       <section class="intro">
-        <h2>Добро пожаловать!</h2>
+        <h2>Описание</h2>
         <p>
-          На этой странице мы представляем идеального начальника. Читайте
-          дальше, чтобы узнать, что делает его уникальным и как он мотивирует
-          свою команду достигать новых высот.
+          Наш руководитель отличается выдающимися лидерскими качествами, умением
+          мотивировать коллектив и добиваться высоких результатов в любом деле.
         </p>
       </section>
 
       <section class="qualities">
-        <h2>Качества нашего начальника</h2>
+        <h2>Качества</h2>
         <div class="qualities-content">
+          <div class="boss-image">
+            <img src="boss.jpg" alt="Boss Image" />
+          </div>
           <ul class="qualities-list">
             <li>
-              <strong>Лидерство:</strong>
-              <p>
-                Способность вести команду за собой и вдохновлять каждого
-                сотрудника.
-              </p>
+              <strong>Умение слушать:</strong> Прислушивается к мнению каждого
+              сотрудника.
             </li>
             <li>
-              <strong>Поддержка:</strong>
-              <p>Всегда готов выслушать и поддержать в трудную минуту.</p>
+              <strong>Ответственность:</strong> Берет на себя ответственность за
+              все решения.
             </li>
             <li>
-              <strong>Честность:</strong>
-              <p>Открытость и прозрачность в принятии решений.</p>
-            </li>
-            <li>
-              <strong>Развитие:</strong>
-              <p>Поощряет обучение и профессиональный рост.</p>
+              <strong>Креативность:</strong> Постоянно генерирует новые идеи и
+              подходы.
             </li>
           </ul>
-          <div class="boss-image">
-            <img src="boss.jpg" alt="Идеальный начальник" />
-          </div>
         </div>
       </section>
 
       <section class="testimonial">
-        <h2>Отзывы сотрудников</h2>
+        <h2>Отзывы</h2>
         <div class="testimonial-container">
           <blockquote>
-            <p>
-              “Наш начальник всегда знает, как мотивировать нас и поддерживать
-              боевой дух в команде. Работа с ним — это настоящее удовольствие!”
-            </p>
-            <cite>— Иван Иванов, разработчик</cite>
+            “Наш руководитель – это пример для подражания. Благодаря его
+            лидерству, наша команда достигла невероятных высот.”
           </blockquote>
-          <blockquote>
-            <p>
-              “Его способность находить индивидуальный подход к каждому из нас
-              делает работу действительно эффективной.”
-            </p>
-            <cite>— Анна Петрова, менеджер проекта</cite>
-          </blockquote>
+          <cite>— Сотрудник компании</cite>
         </div>
       </section>
 
       <section class="contact">
         <h2>Свяжитесь с нами</h2>
-        <form id="contactForm">
-          <label for="name">Ваше имя:</label>
+        <form>
+          <label for="name">Имя</label>
           <input type="text" id="name" name="name" required />
 
-          <label for="email">Ваш email:</label>
+          <label for="email">Электронная почта</label>
           <input type="email" id="email" name="email" required />
 
-          <label for="message">Сообщение:</label>
-          <textarea id="message" name="message" required></textarea>
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
 
           <input type="submit" value="Отправить" />
         </form>
-        <p id="formMessage" style="display: none">Спасибо за ваше сообщение!</p>
       </section>
     </main>
 
-    <footer>
-      <div class="footer-container">
-        <p>© 2024 Начальник которого мы заслужили</p>
-      </div>
+    <footer class="footer-container">
+      <p>© 2024 Начальник которого мы заслужили</p>
     </footer>
-
-    <script src="scripts.js"></script>
   </body>
 </html>
