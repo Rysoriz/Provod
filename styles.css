@@ -77,7 +77,7 @@ strong {
 }
 
 .boss-image {
-  flex: 0 0 75px; /* Уменьшенная ширина */
+  flex: 0 0 150px; /* Уменьшенная ширина */
 }
 
 .boss-image img {
